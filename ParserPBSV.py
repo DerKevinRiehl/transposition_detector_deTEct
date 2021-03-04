@@ -36,17 +36,17 @@ def parsePBSV_SVs(sequenceHeadsFile, inputVcfFile, outputGffFile):
             info = info.replace(key,sequenceDictB[key])
             info = info.replace(key.upper(),sequenceDictB[key].upper())
         if("SVTYPE=DEL" in line):
-            fW.write(sequenceDictB[chrom]+"\t"+"SVIM"+"\t"+"deletion"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
+            fW.write(sequenceDictB[chrom]+"\t"+"PBSV"+"\t"+"deletion"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
         if("SVTYPE=DUP" in line):
-            fW.write(sequenceDictB[chrom]+"\t"+"SVIM"+"\t"+"duplication"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
+            fW.write(sequenceDictB[chrom]+"\t"+"PBSV"+"\t"+"duplication"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
         if("SVTYPE=INS" in line):
             leng = int(parts[7].split(";SVLEN=")[1].split(";")[0])+1
             newStart = str(int(start)-leng)
-            fW.write(sequenceDictB[chrom]+"\t"+"SVIM"+"\t"+"insertion"+"\t"+newStart+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
+            fW.write(sequenceDictB[chrom]+"\t"+"PBSV"+"\t"+"insertion"+"\t"+newStart+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
         if("SVTYPE=INV" in line):
-            fW.write(sequenceDictB[chrom]+"\t"+"SVIM"+"\t"+"inversion"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
+            fW.write(sequenceDictB[chrom]+"\t"+"PBSV"+"\t"+"inversion"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
         if("SVTYPE=cnv" in line):
-            fW.write(sequenceDictB[chrom]+"\t"+"SVIM"+"\t"+"inversion"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
+            fW.write(sequenceDictB[chrom]+"\t"+"PBSV"+"\t"+"inversion"+"\t"+start+"\t"+end+"\t"+"."+"\t"+"+"+"\t"+"."+"\t"+info)
         fW.write("\n")
         line = fR.readline()
     fR.close()

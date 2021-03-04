@@ -8,7 +8,7 @@ def helpExplanations():
     print("Transposition Event Detector deTEct (v1.0, 2021, Kevin Riehl)")
     print("")
     print("USAGE")
-    print("  transposition_deTEct [-help] -seqHeadTXT <FILE> -transpGFF3 <FILE> -assmFasta <FILE> -svTool <FILE> -svFile <FILE> -bedFile <FILE> -outParsedFile <FILE> -outResultFile <FILE>")
+    print("  transposition_deTEct [-help] -seqHeadTXT <FILE> -transpGFF3 <FILE> -assmFasta <FILE> -svTool <FILE> -svFile <FILE> -outParsedFile <FILE> -outResultFile <FILE>")
     print("")
     print("(mandatory):")
     print("  -seqHeadTXT <String>")

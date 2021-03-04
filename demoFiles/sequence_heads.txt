@@ -1,0 +1,7 @@
+>seq1	>V
+>seq2	>X
+>seq3	>IV
+>seq4	>I
+>seq5	>II
+>seq6	>III
+>seq7	>MtDNA

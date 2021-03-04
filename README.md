@@ -10,7 +10,8 @@ Installation as [CondaPackage](https://anaconda.org/derkevinriehl/transposition_
 ```
 *Note: Otherwise you can find all source codes in this Github repository.*
 
-## Usage (using demo files of this repository, we use reference genome CB4856 and probe alignments SX3351)
+## Usage 
+(using demo files of this repository, we use reference genome CB4856 and probe alignments SX3351)
 ```
 transposition_deTEct -help
 

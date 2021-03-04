@@ -1,7 +1,8 @@
 # transposition_detector_deTEct
 Transposition event detection tool using NGS alignment data and SV calling outputs (VCF files) from PBSV or Sniffles.
 Input: Structural variants (VCF file) of PBSV (on PBMM2 alignments) or Sniffles (on NGMLR alignments), transposon annotations (by resonaTE), reference genome (FASTA)
-Output: Annotation and classification of detected transposition events (GFF3)
+
+Output: Annotation and classification of detected transposition events (GFF3).
 
 ## Installation
 Installation as [CondaPackage](https://anaconda.org/derkevinriehl/transposition_detector_detect):

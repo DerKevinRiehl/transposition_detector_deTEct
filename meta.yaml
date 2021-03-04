@@ -1,0 +1,18 @@
+package:
+  name: "transposition_detector_detect"
+  version: "1.0.0"
+
+build:
+  number: 0
+
+requirements:
+  run:
+    - python
+    - biopython
+
+about:
+  home: https://github.com/DerKevinRiehl/transposition_detector_deTEct
+  license: GPL3
+  license_family: GPL
+  summary: Transposition Event Detector "deTEct" - part of TransposonUltimate
+  description: Transposition event detection tool using NGS alignment data and SV calling outputs (VCF files) from PBSV or Sniffles. 

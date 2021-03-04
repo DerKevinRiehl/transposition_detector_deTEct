@@ -1,0 +1,6 @@
+#!/bin/bash
+MUSTPTH=$(which transposition_deTEct)
+NEWPTH=$(dirname "${MUSTPTH}") # go to parent directory (=bin folder)
+NEWPTH2=$(dirname "${NEWPTH}") # go to parent directory (=upper folder)
+PRLSPTH2="$NEWPTH2/share/TranspositionEventDetector_deTEct/TranspositionDetector.py"
+python3 ${PRLSPTH2} $@

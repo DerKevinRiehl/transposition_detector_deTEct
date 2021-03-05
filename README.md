@@ -1,7 +1,7 @@
 # Transposition Event Detector "deTEct"
-Transposition event detection tool using NGS alignment data and SV calling outputs (VCF files) from PBSV or Sniffles.
+Transposition event detection tool using NGS alignment data and SV calling outputs (VCF files) from PBSV or [Sniffles](https://github.com/fritzsedlazeck/Sniffles).
 
-Input: Structural variants (VCF file) of PBSV (on PBMM2 alignments) or Sniffles (on NGMLR alignments), transposon annotations (by resonaTE), reference genome (FASTA)
+Input: Structural variants (VCF file) of [PBSV](https://github.com/PacificBiosciences/pbsv) (on [PBMM2](https://github.com/PacificBiosciences/pbmm2) alignments) or [Sniffles](https://github.com/fritzsedlazeck/Sniffles) (on [NGMLR](https://github.com/philres/ngmlr) alignments), transposon annotations (by resonaTE), reference genome (FASTA)
 
 Output: Annotation and classification of detected transposition events (GFF3).
 

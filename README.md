@@ -7,7 +7,7 @@ Transposition event detection tool *deTEct* using NGS alignment data and SV call
 ## Installation
 Installation as [CondaPackage](https://anaconda.org/derkevinriehl/transposition_detector_detect):
 ```
- conda install -c derkevinriehl transposition_detector_detect 
+ conda install -c derkevinriehl -c bioconda transposition_detector_detect 
 ```
 *Note: Otherwise you can find all source codes in this Github repository.*
 

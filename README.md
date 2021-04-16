@@ -23,6 +23,16 @@ transposition_deTEct -seqHeadTXT demoFiles/sequence_heads.txt -transpGFF3 demoFi
 transposition_deTEct -seqHeadTXT demoFiles/sequence_heads.txt -transpGFF3 demoFiles/FinalAnnotations_Transposons.gff3 -assmFasta demoFiles/sequence_CB4856.fasta -svTool pbsv -svFile demoFiles/SX3351_addisababa.pbsv_pbmm2.vcf -outParsedFile demoFiles/pbsv_pbmm2/SX3351_addisababa.SV.vcf.gff3 -outResultFile demoFiles/pbsv_pbmm2/SX3351_addisababa.transpositionEvents.gff3
 ```
 
+Parameter | Mandatory | Description
+------------ | ------------- | -------------
+seqHeadTXT | (mandatory) | Sequence head names, TXT file (produced by reasonaTE)
+transpGFF3 | (mandatory) | Transposon annotation file, GFF3 file (produced by reasonaTE)
+assmFasta | (mandatory) | Assembly file of reference genome, FASTA file
+svTool | (mandatory) | Structural variant detection tool: "pbsv" or "sniffles"
+svFile | (mandatory) | Structural variant detection output file, VCF file
+outParsedFile | (mandatory) | Target file for VCF parsed outputs
+outResultFile | (mandatory) | Target file for final results with transposition events
+
 ## Explanation of output files
 SX3351_addisababa.SV.vcf.gff3.matches.gff3
 

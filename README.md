@@ -57,16 +57,16 @@ seq1	PBSV	insertion	1126531	1126860	.	+	.	Transposon=23592;Class=2/1/1(Tc1-Marin
 ```
 
 ## Citations
-Please cite our paper if you find transposition event detector "deTEct" useful:
+Please cite our paper if you find TransposonUltimate useful:
 
-Riehl, Kevin and Riccio, Cristian and Miska, Eric and Hemberg, Martin. TransposonUltimate: software for transposon classification, annotation and detection. bioRxiv doi: https://doi.org/10.1101/2021.04.30.442214 (submitted to GenomeBiology, available on BioRxiv https://www.biorxiv.org/content/10.1101/2021.04.30.442214v1 )
+Kevin Riehl, Cristian Riccio, Eric A Miska, Martin Hemberg, TransposonUltimate: software for transposon classification, annotation and detection, Nucleic Acids Research, 2022; gkac136, https://doi.org/10.1093/nar/gkac136
 
 ```
-@article{riehl2021transposonultimate,
+@article{riehl2022transposonultimate,
   title={TransposonUltimate: software for transposon classification, annotation and detection},
   author={Riehl, Kevin and Riccio, Cristian and Miska, Eric and Hemberg, Martin},
-  journal={bioRxiv preprint https://www.biorxiv.org/content/10.1101/2021.04.30.442214v1},
-  year={2021}
+  journal={Nucleic Acids Research},
+  year={2022}
 }
 ```
 
